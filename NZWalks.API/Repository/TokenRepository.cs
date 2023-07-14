@@ -15,6 +15,7 @@ namespace NZWalks.API.Repository
             this.configuration = configuration;
         }
         
+        // Method to create JWT Token 
         public string CreateJWTToken(IdentityUser user, List<string> roles)
         {
             // Create Claims from the Roles
